@@ -18,7 +18,7 @@ from utils import extract_link, get_me_button, get_size, getHerokuDetails
 logger = logging.getLogger(__name__)
 
 user_commands = ["mdisk_api", "shortener_api", "header", "footer", "username", "banner_image", "me"]
-avl_web = ["makeshort.in",]
+avl_web = ["atglinks.com",]
 
 avl_web1 = "".join(f"- {i}\n" for i in avl_web)
 
@@ -50,8 +50,8 @@ async def help_command(c, m: Message):
     s = HELP_MESSAGE.format(
                 firstname=temp.FIRST_NAME,
                 username=temp.BOT_USERNAME,
-                repo=SOURCE_CODE,
-                owner="@NJBCONTACT_BOT" )
+               
+                 )
 
     if WELCOME_IMAGE:
         return await m.reply_photo(photo=WELCOME_IMAGE, caption=s, reply_markup=HELP_REPLY_MARKUP)
