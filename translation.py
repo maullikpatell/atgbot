@@ -68,9 +68,9 @@ Current Method: {method}
     
 Methods Available:
 
-~ `mdlink` - Change all the links of the post to your MDisk account first and then short to MAKESHORT.IN link.
+~ `mdlink` - Change all the links of the post to your MDisk account first and then short to ATG link.
 
-~ `shortener` - Short all the links of the post to MAKESHORT.IN link directly.
+~ `shortener` - Short all the links of the post to ATG link directly.
 
 To change method, choose it from the following options:
 """
