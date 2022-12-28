@@ -188,7 +188,7 @@ Current Mdisk API: `{}`"""
 SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, 
 `/shortener_api [api]`
             
-Ex: `/shortener_api acccdf4778c9453ea9f193655bde0af2af01cb9e`
+Ex: `/shortener_api 5545a50cb4e5bb549ca49d3373ef763c1f426645`
 
 Current Website: {base_site}
 
