@@ -45,6 +45,7 @@ async def filter_users(dict):
 async def total_users_count():
     return await col.count_documents({})
 
+
 async def get_all_users():
     return col.find({})
 
